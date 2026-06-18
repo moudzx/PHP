@@ -1,0 +1,3 @@
+add database name = corona
+table city | column name
+table infections | columns name,weekday,nb
