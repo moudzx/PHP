@@ -1,0 +1,71 @@
+/* Apply styles to all h1 elements */
+h1 {
+    color: rgb(94, 140, 205);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+
+}
+
+/* Apply styles to all p elements with class "highlight" */
+p.highlight {
+    background-color: yellow;
+}
+
+/* Apply styles to all anchor tags with class "btn" when hovered */
+a.btn:hover {
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+}
+
+/* Apply styles to all list items within an unordered list */
+ul li {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+/* Apply styles to all images */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+}
+
+/* Apply styles to all elements with class "container" */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+    border-radius: 10px;
+    /* Add rounded corners */
+    overflow: hidden;
+    border: 3px solid gray;
+    background-color: #c0bfbf;
+}
+
+th,
+td {
+    border: 2px solid gray;
+    /* background-color: white; */
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    width: 10%;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(222, 241, 241);
+}
